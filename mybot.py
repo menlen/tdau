@@ -105,7 +105,7 @@ def start(message):
     btn3 = types.KeyboardButton('9217-18')
     btn4 = types.KeyboardButton("9217-19")
     btn9 = types.KeyboardButton("9217-24")
-    markup.add(btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9)
+    markup.add(btn1, btn2, btn3, btn4, btn9)
 
     bot.send_message(message.chat.id, message.from_user.first_name, reply_markup=markup)
 
