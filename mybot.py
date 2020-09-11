@@ -135,7 +135,7 @@ try:
             elif message.text == '9217-19':
                 if message.chat.id == 914886587:
                     ouname = '9217-19'
-                    ums = osorov(ouname)
+                    ums = usorov(ouname)
                     bot.send_message(message.chat.id, ums)
                 else:
                     bot.send_message(message.chat.id, 'Sen boshqa odamsan')
